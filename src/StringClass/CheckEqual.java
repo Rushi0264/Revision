@@ -8,7 +8,7 @@ public class CheckEqual {
         String password="rushi@123";
         int attempt=0, maxAttempt=3;
         Scanner sc = new Scanner(System.in);
- 
+
         while (attempt < maxAttempt){
             System.out.print("Enter user id : ");
             String checkId = sc.next();
